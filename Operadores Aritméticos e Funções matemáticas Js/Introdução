@@ -1,0 +1,25 @@
+Em JavaScript,operadores aritméticos são símbolos que realizam operações matemáticas em valores numéricos. Funções matemáticas são métodos pré-definidos que executam cálculos mais complexos e acessíveis através do objeto Math. 
+Operadores Aritméticos:
+Adição (+): Soma dois valores. Ex: 5 + 3resultado em 8.
+Subtração (-): Subtrai um valor de outro. Ex: 10 - 4resultado em 6.
+Multiplicação ():*: Multiplica dois valores. Ex: 6 * 2resultado em 12.
+Divisão (/): Divide um valor por outro. Ex: 15 / 3resultado em 5.
+Módulo (%) : Retorno ao resto da divisão. Ex: 10 % 3resultado em 1.
+Incremento (++) : Aumenta o valor de uma variável em 1. Ex: x++(se x=5, após a execução x será igual a 6).
+Decremento (--) : Diminui o valor de uma variável em 1. Ex: x--(se x=5, após a execução x será igual a 4). 
+Funções Matemáticas:
+O objeto Mathem JavaScript fornece várias funções matemáticas para cálculos mais elaborados. Alguns exemplos incluem: 
+Math.round(x): Arredonda o número xpara o inteiro mais próximo. 
+Math.ceil(x): Arredonda o número xpara cima para o inteiro mais próximo. 
+Math.floor(x): Arredonda o número xpara baixo para o inteiro mais próximo. 
+Math.abs(x): Retorna o valor absoluto de x. 
+Math.max(x, y, z, ...): Retorna o maior valor entre os argumentos. 
+Math.min(x, y, z, ...): Retorna o menor valor entre os argumentos. 
+Math.random(): Gera um número aleatório entre 0 (inclusivo) e 1 (exclusivo). 
+Math.pow(x, y): Retorno xelevado à potência de y. 
+Math.sqrt(x): Retorna a raiz quadrada de x. 
+Math.log(x): Retorno o logaritmo natural (base e) de x. 
+Math.exp(x): Retorno eelevado à potência de x. 
+Math.sin(x): Retorna o seno de x(ângulo em radianos). 
+Math.cos(x): Retorna o cosseno de x(ângulo em radianos). 
+Math.tan(x): Retorna a tangente de x(ângulo em radianos). 
