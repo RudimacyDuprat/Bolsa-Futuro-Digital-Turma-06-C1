@@ -1,0 +1,30 @@
+Em JavaScript, textContent, innerHTMLe valuesãopropriedades usadas para manipular o conteúdo de elementos HTML. textContentacesse ou defina o texto puro dentro de um elemento, incluindo texto de elementos filhos, mas não elementos HTML. innerHTMLacesse ou defina o conteúdo HTML de um elemento, incluindo elementos HTML e texto. valueacesse ou defina o valor de um elemento de formulário, como um campo de entrada. 
+textContent:
+O que faz:
+Recuperar ou definir o conteúdo de texto puro de um elemento, incluindo texto de todos os elementos descendentes, mas ignora as tags HTML. 
+Exemplo:
+Se um elemento tiver o conteúdo "<h1>Olá, Mundo!</h1>", textContentretornará "Olá, Mundo!". 
+Quando usar:
+Quando você precisa manipular ou acessar apenas o texto dentro de um elemento, sem se preocupar com a estrutura HTML. 
+Vantagens:
+Geralmente mais rápido que innerHTML, pois não precisa analisar HTML. É útil para evitar ataques XSS (cross-site scripting) quando o conteúdo não é confiável. 
+innerHTML:
+O que faz:
+Recupera ou define o conteúdo HTML de um elemento, incluindo as tags HTML. 
+Exemplo:
+Se um elemento tiver o conteúdo "<h1>Olá, Mundo!</h1>", innerHTMLretornará "<h1>Olá, Mundo!</h1>". 
+Quando usar:
+Quando você precisar adicionar, remover ou modificar elementos HTML dentro de outro elemento, ou quando precisar trabalhar com a estrutura HTML completa. 
+Desvantagens:
+Mais lento que textContent, pois precisa analisar o HTML. Pode ser vulnerável a ataques XSS se o conteúdo inserido não for confiável. 
+value:
+O que faz:
+Acesse ou defina o valor de um elemento de formulário, como o valor de um campo de texto ou o estado de uma caixa de seleção.
+Exemplo:
+Em um campo de entrada <input type="text" value="texto">, valueretornará "texto".
+Quando usar:
+Em elementos de formulário, como inputs, textareas, selects, etc. para obter ou definir o valor que o usuário digitou ou selecionou. 
+Em resumo:
+Use textContentpara acessar ou modificar apenas o texto puro dentro de um elemento. 
+Use innerHTMLpara acessar ou modificar o conteúdo HTML completo de um elemento. 
+Use valuepara acessar ou modificar o valor dos elementos do formulário. 
