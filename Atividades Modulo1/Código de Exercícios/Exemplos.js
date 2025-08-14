@@ -1,0 +1,51 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video Locadora</title>
+    </head>
+    <body>
+        <h1>Video Locadora JS</h1>
+        <hr>
+        <p>Titulo do Filme:
+            <input type="text" id="inTitulo">
+        </p>
+            <p> Duração (min):
+                <input type="text" id="inDuracao">
+            </p>
+            <p>
+                <input type="button" value="Converter em horas e minutos" id="btnConverter">
+            </p>
+            <p id="outTitulo"></p>
+            <p id="outResposta"></p>
+            <script>
+                function ConverterDuracao(){
+                //cria referencias aos elementos da página
+                var inTitulo = document.getElementById("inTitulo");
+                var inDuracao = document.getElementById("inDuracao");   
+                var outTitulo = document.getElementById("outTitulo");
+                var outResposta = document.getElementById("outResposta");
+                    //obtém conteúdos dos campos de entrada
+                var titulo = inTitulo.value;
+                var duracao = Number(inDuracao.value);
+                    //arredonda para baixo o resultado da divisão  
+                var horas = Math.floor(duracao / 60);
+                var minutos = duracao % 60;
+                    //altera o conteúdo dos paragrafos de resposta
+                outTitulo.textContent = "Título: " + titulo;
+                outResposta.textContent = "Duração: " + horas + " horas e " + minutos + " minutos";    
+                }
+                //cria uma referencia ao elemento btnConverter (botao)
+                var btnConverter = document.getElementById("btnConverter");
+                btnConverter.addEventListener("click", ConverterDuracao);   
+            </script>
+            <hr>
+            
+        
+
+            
+
+    
+    </body>
+    </html>
