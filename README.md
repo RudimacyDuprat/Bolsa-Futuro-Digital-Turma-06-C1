@@ -30,9 +30,9 @@ Este curso utiliza:
 ---
 
 ## 💡 Como usar este repositório
-<img width="621" height="368" alt="image" src="https://github.com/user-attachments/assets/fd592f2c-7054-4027-852a-a7dee0c53e38" />
-Todo Modulo estará uma pasta com Atividades Modulo.. ai estará dentro o conteudo do Exercicios
-ATENÇÃO ENTREGA DOS EXERCICÍOS SÓ PELO MOODLE!! 
+<img width="621" height="368" alt="image" src="https://github.com/user-attachments/assets/fd592f2c-7054-4027-852a-a7dee0c53e38" /> <BR>
+<p><strong>Todo Modulo estará uma pasta com Atividades Modulo.. ai estará dentro o conteudo do Exercicios
+ATENÇÃO ENTREGA DOS EXERCICÍOS SÓ PELO MOODLE!!</strong></p>
 
 
 ### 📥 Clonar o repositório
