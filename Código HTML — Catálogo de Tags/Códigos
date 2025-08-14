@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Tags HTML</title>
+</head>
+<body>
+    <h1>📚 Catálogo de Tags HTML</h1>
+    <p>Este documento contém exemplos das principais tags HTML organizadas por categoria.</p>
+
+    <hr>
+
+    <!-- Estrutura e Cabeçalhos -->
+    <header>
+        <h2>Estrutura e Cabeçalhos</h2>
+        <h1>H1 - Título principal</h1>
+        <h2>H2 - Subtítulo</h2>
+        <h3>H3</h3>
+        <h4>H4</h4>
+        <h5>H5</h5>
+        <h6>H6</h6>
+    </header>
+
+    <hr>
+
+    <!-- Texto -->
+    <section>
+        <h2>Texto e Formatação</h2>
+        <p>Parágrafo com <strong>negrito</strong>, <em>itálico</em> e <u>sublinhado</u>.</p>
+        <p>Exemplo de <mark>marcação</mark> de texto.</p>
+        <p>Texto <small>pequeno</small> e <big>grande</big>.</p>
+        <blockquote>Citação em bloco.</blockquote>
+        <q>Citação curta.</q>
+        <pre>Texto pré-formatado</pre>
+        <code>console.log("Código!");</code>
+    </section>
+
+    <hr>
+
+    <!-- Listas -->
+    <section>
+        <h2>Listas</h2>
+        <h3>Lista não ordenada</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+        <h3>Lista ordenada</h3>
+        <ol>
+            <li>Passo 1</li>
+            <li>Passo 2</li>
+        </ol>
+        <h3>Lista de descrição</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação</dd>
+        </dl>
+    </section>
+
+    <hr>
+
+    <!-- Links e Imagens -->
+    <section>
+        <h2>Links e Imagens</h2>
+        <a href="https://developer.mozilla.org" target="_blank">Visitar MDN</a>
+        <br>
+        <img src="https://via.placeholder.com/150" alt="Exemplo de imagem">
+    </section>
+
+    <hr>
+
+    <!-- Tabelas -->
+    <section>
+        <h2>Tabelas</h2>
+        <table border="1">
+            <caption>Exemplo de Tabela</caption>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>João</td>
+                    <td>25</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Formulários -->
+    <section>
+        <h2>Formulários e Controles</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade"><br><br>
+
+            <label>Sexo:</label>
+            <input type="radio" name="sexo" value="M"> Masculino
+            <input type="radio" name="sexo" value="F"> Feminino<br><br>
+
+            <label>Interesses:</label>
+            <input type="checkbox" name="html"> HTML
+            <input type="checkbox" name="css"> CSS<br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem"></textarea><br><br>
+
+            <label for="opcoes">Opções:</label>
+            <select id="opcoes" name="opcoes">
+                <option value="1">Opção 1</option>
+                <option value="2">Opção 2</option>
+            </select><br><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- Multimídia -->
+    <section>
+        <h2>Multimídia</h2>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio.
+        </audio>
+        <br><br>
+        <video width="320" height="240" controls>
+            <source src="video.mp4" type="video/mp4">
+            Seu navegador não suporta vídeo.
+        </video>
+    </section>
+
+    <hr>
+
+    <!-- Estrutura Semântica -->
+    <section>
+        <h2>Tags Semânticas</h2>
+        <article>
+            <h3>Artigo</h3>
+            <p>Conteúdo independente e reutilizável.</p>
+        </article>
+        <aside>
+            <p>Conteúdo lateral (ex.: links extras).</p>
+        </aside>
+        <footer>
+            <p>Rodapé da página</p>
+        </footer>
+        <nav>
+            <a href="#">Início</a> |
+            <a href="#">Sobre</a> |
+            <a href="#">Contato</a>
+        </nav>
+        <main>
+            <p>Conteúdo principal do site.</p>
+        </main>
+        <section>
+            <p>Seção de conteúdo relacionada.</p>
+        </section>
+    </section>
+</body>
+</html>
