@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Exercício: Semântica, Multimídia, Listas, Formulário e Tabelas</title>
+</head>
+<body>
+ <header>
+    <h1>Exercício Prático de HTML</h1>
+    <p>Conteúdo: tags semânticas, agrupamento, multimídia, listas, formulários, botões e tabelas.</p>
+    <nav>
+      <ul>
+        <li><a href="#semantica">Semântica</a></li>
+        <li><a href="#multimidia">Multimídia</a></li>
+        <li><a href="#listas">Listas</a></li>
+        <li><a href="#formulario">Formulário</a></li>
+        <li><a href="#tabela">Tabela</a></li>
+      </ul>
+    </nav>
+  </header>  
+ <main>
+    <section id="semantica">
+      <h2>Layout Semântico e Agrupamento</h2>
+
+      <article>
+        <h3>Uso básico de tags semânticas</h3>
+        <p>As tags semânticas ajudam a organizar e descrever o conteúdo da página.</p>
+
+        <section>
+          <h4>Exemplo de agrupamento</h4>
+          <p>Um <code>fieldset</code> é útil para agrupar controles relacionados dentro de um formulário.</p>
+          <fieldset>
+            <legend>Dados de exemplo</legend>
+            <p>Nome: <strong>João</strong></p>
+            <p>E-mail: <strong>joao@example.com</strong></p>
+          </fieldset>
+        </section>
+      </article>
+    </section>
+
+    <section id="multimidia">
+      <h2>Multimídia</h2>
+
+      <article>
+        <h3>Áudio</h3>
+        <p>Substitua <em>audio-exemplo.mp3</em> pelo arquivo real para testar.</p>
+        <audio controls>
+          <source src="audio-exemplo.mp3" type="audio/mpeg">
+          Seu navegador não suporta o elemento <code>audio</code>.
+        </audio>
+      </article>
+
+      <article>
+        <h3>Vídeo</h3>
+        <p>Substitua <em>video-exemplo.mp4</em> pelo arquivo real para testar.</p>
+        <video controls width="480">
+          <source src="video-exemplo.mp4" type="video/mp4">
+          Seu navegador não suporta o elemento <code>video</code>.
+        </video>
+      </article>
+    </section>
+
+    <section id="listas">
+      <h2>Listas</h2>
+
+      <h3>Lista não ordenada</h3>
+      <ul>
+        <li>HTML semântico</li>
+        <li>Formulários</li>
+        <li>Tabelas</li>
+      </ul>
+
+      <h3>Lista ordenada</h3>
+      <ol>
+        <li>Planejar o conteúdo</li>
+        <li>Marcar com tags semânticas</li>
+        <li>Adicionar formulários e tabelas</li>
+      </ol>
+
+      <h3>Lista de definição</h3>
+      <dl>
+        <dt>&lt;header&gt;</dt>
+        <dd>Cabeçalho da página.</dd>
+        <dt>&lt;nav&gt;</dt>
+        <dd>Área de navegação.</dd>
+        <dt>&lt;main&gt;</dt>
+        <dd>Conteúdo principal.</dd>
+      </dl>
+    </section>
+
+    <section id="formulario">
+      <h2>Formulário e Botões</h2>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Cadastro de aluno</legend>
+
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Nome completo" required>
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="nome@exemplo.com" required>
+
+          <label for="nascimento">Data de nascimento</label>
+          <input type="date" id="nascimento" name="nascimento">
+
+          <label for="curso">Curso</label>
+          <select id="curso" name="curso">
+            <option value="">-- selecione --</option>
+            <option value="web">Desenvolvimento Web</option>
+            <option value="prog">Programação</option>
+            <option value="design">Design</option>
+          </select>
+
+          <label for="obs">Observações</label>
+          <textarea id="obs" name="obs" rows="3" placeholder="Observações"></textarea>
+
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpar</button>
+        </fieldset>
+      </form>
+
+    </section>
+
+    <section id="tabela">
+      <h2>Tabela</h2>
+
+      <p>Exemplo simples de tabela com alunos e notas.</p>
+
+      <table border="1">
+        <caption>Alunos e Notas - Exemplo</caption>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nome</th>
+            <th>Nota</th>
+            <th>Situação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Ana</td>
+            <td>8.5</td>
+            <td>Aprovado</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Bruno</td>
+            <td>6.0</td>
+            <td>Recuperação</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Carla</td>
+            <td>9.0</td>
+            <td>Aprovado</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Média (exemplo)</td>
+            <td>7.83</td>
+          </tr>
+        </tfoot>
+      </table>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Página de exemplo para sala de aula. Professor: [Seu Nome]</p>
+  </footer>
+
+</body>
+</html>
