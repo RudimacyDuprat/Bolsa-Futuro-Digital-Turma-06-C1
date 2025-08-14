@@ -1,10 +1,40 @@
 # Bolsa Futuro Digital
 ![BolsaSoftex](https://github.com/user-attachments/assets/fc5fbf64-c65a-49da-a86e-8f5bcd397cd2)
-<h1>Bolsa Futuro Digital </h1><br>
-<fildset>
-Bem-vindo(a) ao repositório da disciplina! Este espaço foi criado para centralizar os materiais didáticos, incluindo slides de aula e códigos de exemplo.
+# 🚀 Curso de Front-End React
 
-O conteúdo está organizado por módulos para facilitar o seu acompanhamento ao longo do semestre.
+Bem-vindo(a) ao repositório oficial da **Turma de Front-End Turma 06 PE**!  
+Aqui você encontrará **materiais de apoio**, **atividades** e **projetos** utilizados nas nossas aulas.
 
-Este NÃO é o canal Oficial de conteúdo do programa, apenas um repositório que uso no dia a dia e pode ser consultado também pelos treinandos.
-</fildset>
+---
+
+## 📚 Metodologia
+
+Este curso utiliza:
+
+**📖 Sala de Aula Invertida**  
+- Você estuda o conteúdo antes da aula, com materiais indicados.  
+- Durante a aula, aplicamos o conteúdo na prática, discutimos e tiramos dúvidas.
+
+**🧠 PBL (Aprendizagem Baseada em Problemas)**  
+- Você aprenderá resolvendo desafios reais e criando soluções.  
+- Desenvolverá autonomia, pensamento crítico e trabalho em equipe.
+
+---
+
+## 📂 Estrutura do Repositório
+
+- **/materiais** → Slides, PDFs, links e recursos para estudo pré-aula.  
+- **/atividades** → Exercícios práticos e desafios.  
+- **/projetos** → Projetos completos desenvolvidos ao longo do curso.  
+
+---
+
+## 💡 Como usar este repositório
+
+### 📥 Clonar o repositório
+
+Para baixar os arquivos no seu computador, use o comando:
+
+```bash
+git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+
