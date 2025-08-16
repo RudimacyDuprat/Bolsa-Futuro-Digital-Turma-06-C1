@@ -1,0 +1,123 @@
+📘 Lista de Exercícios – Estruturas Condicionais (if e else)
+
+1. Maioridade
+
+Peça para o usuário digitar a idade.
+
+Se for maior ou igual a 18, mostre: "Você é maior de idade".
+
+Caso contrário, mostre: "Você é menor de idade".
+
+
+
+---
+
+2. Número positivo ou negativo
+
+Peça um número.
+
+Se for maior ou igual a 0, mostre: "Número positivo".
+
+Senão, mostre: "Número negativo".
+
+
+
+---
+
+3. Par ou ímpar
+
+Peça um número inteiro.
+
+Se o resto da divisão por 2 (%) for 0, mostre: "Número par".
+
+Senão, mostre: "Número ímpar".
+
+
+
+---
+
+4. Nota do aluno
+
+Peça uma nota (0 a 10).
+
+Se for maior ou igual a 7, mostre: "Aprovado".
+
+Senão, mostre: "Reprovado".
+
+
+
+---
+
+5. Senha secreta
+
+Peça para o usuário digitar uma senha.
+
+Se a senha for "1234", mostre: "Acesso permitido".
+
+Senão, mostre: "Acesso negado".
+
+
+
+---
+
+6. Desconto na compra
+
+Peça o valor de uma compra.
+
+Se for maior ou igual a 100, mostre: "Você ganhou desconto!".
+
+Caso contrário, mostre: "Sem desconto".
+
+
+
+---
+
+7. Maior de dois números
+
+Peça dois números.
+
+Mostre qual deles é o maior.
+
+Se forem iguais, mostre: "Os números são iguais".
+
+
+
+---
+
+8. Temperatura
+
+Peça a temperatura atual.
+
+Se for menor que 15, mostre: "Está frio".
+
+Se for maior ou igual a 15, mostre: "Está quente".
+
+
+
+---
+
+9. Login simples
+
+Peça usuário e senha.
+
+Usuário correto: "admin"
+
+Senha correta: "1234"
+
+Se ambos estiverem certos, mostre: "Login realizado com sucesso".
+
+Caso contrário, mostre: "Usuário ou senha incorretos".
+
+
+
+---
+
+10. Lâmpada
+
+Peça para o usuário digitar "on" ou "off".
+
+Se digitar "on", mostre: "A lâmpada está acesa".
+
+Se digitar "off", mostre: "A lâmpada está apagada".
+
+Caso digite outra coisa, mostre: "Comando inválido".
