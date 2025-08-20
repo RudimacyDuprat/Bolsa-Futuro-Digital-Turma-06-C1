@@ -1,0 +1,164 @@
+📘 Lista de Exercícios – HTML + CSS
+
+
+---
+
+🔹 Parte 1 – Revisão (aquecimento)
+
+Exercício 1
+Crie uma página com:
+
+Um título (h1) azul.
+
+Um parágrafo (p) verde.
+
+Fundo da página amarelo.
+
+
+
+---
+
+Exercício 2
+Crie uma página com:
+
+Dois títulos (h1 e h2), cada um de uma cor diferente.
+
+Dois parágrafos com tamanhos de fonte diferentes.
+
+
+
+---
+
+🔹 Parte 2 – Trabalhando com ID
+
+Exercício 3
+Crie dois títulos (h1).
+
+Dê ao primeiro id="principal" e faça ele ficar vermelho e grande.
+
+O segundo deve continuar normal.
+
+
+
+---
+
+Exercício 4
+Crie três parágrafos.
+
+Apenas o do meio deve ter um id="destaque" e ficar com fundo amarelo e texto preto.
+
+
+
+---
+
+🔹 Parte 3 – Trabalhando com Classes
+
+Exercício 5
+Crie cinco parágrafos.
+
+Os parágrafos 1, 3 e 5 devem usar a classe .importante e ficar em negrito e cor azul.
+
+Os demais ficam normais.
+
+
+
+---
+
+Exercício 6
+Crie uma lista (ul com 5 itens).
+
+Todos os itens devem ter a classe .item (cor verde).
+
+O terceiro item deve ter também a classe .especial (cor vermelha).
+
+
+
+---
+
+🔹 Parte 4 – Misturando ID + Classe
+
+Exercício 7
+Crie um site com:
+
+Um título com id="cabecalho", em cor azul escuro.
+
+Dois parágrafos com classe .texto, em cinza.
+
+Um parágrafo normal sem estilo.
+
+
+
+---
+
+Exercício 8
+Crie três caixas (div) com tamanho 200px x 200px.
+
+Todas devem ter a classe .caixa (borda preta e fundo cinza).
+
+A primeira deve ter o id="caixa1" (fundo azul).
+
+A segunda deve ter o id="caixa2" (fundo verde).
+
+A terceira deve ter o id="caixa3" (fundo vermelho).
+
+
+
+---
+
+🔹 Parte 5 – Desafios Práticos
+
+Exercício 9 – Mini Perfil
+Crie uma página com:
+
+Um título (h1) com seu nome (id="nome").
+
+Um parágrafo com sua descrição (class="bio").
+
+Um fundo de página colorido.
+
+Seu nome deve estar em uma cor e fonte diferente da descrição.
+
+
+
+---
+
+Exercício 10 – Card de Produto
+Crie uma caixa (div) representando um produto:
+
+Um título (h2) com o nome do produto.
+
+Um parágrafo com a descrição.
+
+Um parágrafo com o preço.
+
+Use classes para estilizar os textos (ex: .titulo, .descricao, .preco).
+
+Deixe o preço em negrito e vermelho.
+
+
+
+---
+
+Exercício 11 – Página de Notícias
+Crie uma página com três notícias (cada notícia em uma div).
+
+Cada notícia deve ter: título, texto e autor.
+
+Use classes para estilizar os títulos e textos.
+
+Deixe o autor com id="autor" em cor cinza.
+
+
+
+---
+
+Exercício 12 – Desafio Final (Tema Livre)
+Monte uma página ao seu estilo:
+
+Um título com id.
+
+Pelo menos 3 parágrafos, sendo 2 com class.
+
+Uma cor de fundo personalizada.
+
+Um destaque visual diferente (ex: caixa colorida, fonte diferente, texto em negrito).
