@@ -8,6 +8,125 @@
 | `*`                   | Altera todos os elementos (universal)         |
 | `input:focus`         | Estilo quando o input está com foco (clicado) |
 
+✅ 1. Seletor de tipo
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    padding: 20px;
+}
+
+
+Aplica estilos diretamente ao elemento <body>.
+
+font-family: define a fonte do texto.
+
+background-color: define a cor de fundo da página.
+
+padding: adiciona um espaço interno ao redor do conteúdo do body.
+------------------------------------------------------------------------
+✅ 2. Seletor de classe
+.lista-tarefas li {
+    color: darkblue;
+    font-weight: bold;
+}
+
+
+Alvo: qualquer <li> (item de lista) dentro de um elemento com a classe .lista-tarefas.
+
+color: cor do texto azul escuro.
+
+font-weight: texto em negrito.
+------------------------------------------------------------------------------
+
+✅ 3. Seletor de elemento dentro de outro (combinador de descendência + classe específica)
+ol.lista-mensagens li {
+    color: darkgreen;
+    font-style: italic;
+}
+
+
+Alvo: <li> dentro de um <ol> com a classe lista-mensagens.
+
+color: texto verde escuro.
+
+font-style: texto em itálico.
+
+--------------------------------------------------------------------------------
+✅ 4. Seletor de pseudo-classe (:hover)
+ul.lista-tarefas li:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+
+Aplica-se a <li> dentro de uma <ul class="lista-tarefas"> quando o mouse passa por cima.
+
+background-color: muda o fundo para amarelo.
+
+--------------------------------------------------------------------------
+
+✅ 5. Seletor de posição (:nth-child)
+ol.lista-mensagens li:nth-child(odd) {
+    background-color: #e0ffe0;
+}
+
+
+Alvo: itens <li> em posição ímpar (1º, 3º, 5º...) dentro de um <ol class="lista-mensagens">.
+
+background-color: fundo verde-claro.
+
+----------------------------------------------------------------------------
+✅ 6. Seletor de atributo
+input[type="email"] {
+    border: 2px solid orange;
+}
+
+
+Alvo: qualquer <input> com atributo type="email".
+
+border: borda laranja de 2 pixels.
+cursor: muda o cursor para "mãozinha", indicando que é clicável.
+
+---------------------------------------------------------------------------
+
+✅ 7. Seletor descendente
+.formulario label {
+    display: inline-block;
+    width: 60px;
+    margin-top: 10px;
+}
+
+
+Alvo: elementos <label> dentro de um elemento com classe .formulario.
+
+display: inline-block: permite definir largura/altura, mas mantém na mesma linha que outros elementos.
+
+width: largura fixa.
+
+margin-top: espaço acima do label.
+----------------------------------------------------------------------------
+
+✅ 8. Seletor universal
+* {
+    box-sizing: border-box;
+}
+
+
+Alvo: todos os elementos da página.
+
+box-sizing: border-box: faz com que padding e border sejam incluídos na largura total definida do elemento. Melhora o controle do layout.
+--------------------------------------------------------------------------------
+
+✅ 9. Seletor combinado: input:focus
+input:focus {
+    background-color: #fff8dc;
+}
+
+
+Alvo: qualquer <input> quando estiver em foco (quando o usuário clica ou tabula até ele).
+
+background-color: muda o fundo para um amarelo bem claro (#fff8dc).
+------------------------------------------------------------------------------------
 🚀 Algo a mais para brincar
 <button onclick="alert('Formulário enviado!')">Enviar</button>
 No CSS:
