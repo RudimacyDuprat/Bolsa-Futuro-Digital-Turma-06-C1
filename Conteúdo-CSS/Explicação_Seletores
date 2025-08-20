@@ -1,0 +1,24 @@
+| Seletor               | O que faz                                     |
+| --------------------- | --------------------------------------------- |
+| `tag`                 | Altera todos os elementos daquela tag         |
+| `.classe`             | Altera todos os elementos com aquela classe   |
+| `tag:hover`           | Aplica estilo quando o mouse passa por cima   |
+| `tag:nth-child(odd)`  | Altera elementos ímpares da lista             |
+| `input[type="email"]` | Altera só inputs com tipo email               |
+| `*`                   | Altera todos os elementos (universal)         |
+| `input:focus`         | Estilo quando o input está com foco (clicado) |
+
+🚀 Algo a mais para brincar
+<button onclick="alert('Formulário enviado!')">Enviar</button>
+No CSS:
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+}
+button:hover {
+    background-color: #45a049;
+}
+
