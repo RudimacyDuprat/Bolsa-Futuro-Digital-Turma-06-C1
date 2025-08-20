@@ -1,0 +1,51 @@
+/* Seletor de tipo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    padding: 20px;
+}
+
+/* Seletor de classe */
+.lista-tarefas li {
+    color: darkblue;
+    font-weight: bold;
+}
+
+/* Seletor de elemento dentro de outro */
+ol.lista-mensagens li {
+    color: darkgreen;
+    font-style: italic;
+}
+
+/* Seletor de pseudo-classe */
+ul.lista-tarefas li:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+/* Seletor de posição (nth-child) */
+ol.lista-mensagens li:nth-child(odd) {
+    background-color: #e0ffe0;
+}
+
+/* Seletor de atributo */
+input[type="email"] {
+    border: 2px solid orange;
+}
+
+/* Seletor descendente */
+.formulario label {
+    display: inline-block;
+    width: 60px;
+    margin-top: 10px;
+}
+
+/* Seletor universal (algo a mais!) */
+* {
+    box-sizing: border-box;
+}
+
+/* Seletor combinado: aplica se for input E estiver em foco */
+input:focus {
+    background-color: #fff8dc;
+}
