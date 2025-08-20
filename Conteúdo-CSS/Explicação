@@ -1,0 +1,154 @@
+Aula: Introdução ao CSS + Seletores, ID e Classe
+1. Introdução ao CSS
+
+👉 Objetivo: Entender para que serve o CSS e como aplicá-lo em páginas HTML.
+
+O que é CSS?
+
+Cascading Style Sheets (Folhas de Estilo em Cascata).
+
+Usado para controlar a aparência de páginas HTML.
+
+Separa conteúdo (HTML) da apresentação (CSS).
+
+
+
+Formas de aplicar CSS
+
+1. Inline (direto na tag):
+
+
+
+<p style="color: red;">Texto vermelho</p>
+
+2. Interno (dentro do <style> no HTML):
+
+
+
+<head>
+  <style>
+    p {
+      color: blue;
+    }
+  </style>
+</head>
+
+3. Externo (arquivo separado .css):
+
+
+
+<link rel="stylesheet" href="style.css">
+
+👉 Melhor prática em projetos.
+
+
+---
+
+2. Seletores Básicos
+
+👉 Objetivo: Saber como escolher elementos para aplicar estilos.
+
+Por tag (tipo):
+
+
+p {
+  color: green;
+}
+
+Por id (único na página, começa com #):
+
+
+#titulo {
+  font-size: 30px;
+  color: navy;
+}
+
+Por classe (reutilizável, começa com .):
+
+
+.destaque {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+Múltiplos seletores:
+
+
+h1, h2, p {
+  font-family: Arial, sans-serif;
+}
+
+
+---
+
+3. Exemplos Práticos
+
+HTML base para exercícios
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="titulo">Bem-vindo ao CSS</h1>
+  <p>Este é um parágrafo simples.</p>
+  <p class="destaque">Este parágrafo tem destaque.</p>
+  <h2 class="subtitulo">Subtítulo de teste</h2>
+</body>
+</html>
+
+style.css inicial
+
+/* seletor por tag */
+p {
+  color: gray;
+}
+
+/* seletor por id */
+#titulo {
+  color: blue;
+  text-align: center;
+}
+
+/* seletor por classe */
+.destaque {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.subtitulo {
+  font-style: italic;
+  color: green;
+}
+
+
+---
+
+4. Exercícios
+
+1. Mudar cor e tamanho
+
+Altere a cor de todos os <h2> para roxo e aumente o tamanho da fonte.
+
+
+
+2. Criar destaque
+
+Crie uma nova classe .importante que deixe o texto em vermelho e em negrito.
+
+Aplique-a em um <p>.
+
+
+
+3. Centralizar e estilizar título
+
+Use o #titulo para centralizar o texto e colocar um fundo cinza.
+
+
+
+4. Desafio extra
+
+Crie um botão <button> no HTML e dê um estilo com classe .botao (cor de fundo, cor do texto, bordas arredondadas).
