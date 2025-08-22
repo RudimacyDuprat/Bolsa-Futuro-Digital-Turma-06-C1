@@ -1,0 +1,111 @@
+# 🔢 Métodos e Propriedades de Números no JavaScript
+
+## 📢 Introdução
+
+No JavaScript, números podem ser manipulados usando **métodos** e **propriedades** do objeto **`Number`**.
+
+Essas ferramentas permitem:
+
+- Arredondar valores
+- Limitar casas decimais
+- Validar se algo é ou não um número
+- Trabalhar com valores máximos e mínimos suportados
+
+---
+
+## 📌 O que é um método?
+
+- Um **método** é uma **função associada a um objeto**.
+- No caso de números, métodos realizam **operações específicas** sobre o valor.
+
+📌 Exemplo:
+
+```jsx
+let valor = 99.5678;
+console.log(valor.toFixed(2)); // "99.57"
+
+```
+
+---
+
+## 📌 Principais métodos do objeto `Number`
+
+### 1️⃣ `toFixed()`
+
+- **Função** que formata o número com uma quantidade fixa de casas decimais.
+- Retorna uma **string**.
+
+```jsx
+let numero = 23.999;
+console.log(numero.toFixed(1)); // "24.0"
+console.log(numero.toFixed(3)); // "23.999"
+
+```
+
+---
+
+### 2️⃣ `isNaN()`
+
+- Verifica se o valor **não é um número** (*Not a Number*).
+- Retorna `true` se **não for um número**, e `false` se for.
+
+```jsx
+console.log(isNaN("abc")); // true
+console.log(isNaN(123));   // false
+
+```
+
+---
+
+### 3️⃣ `Number()` (conversão)
+
+- Converte um valor para número, se possível.
+- Útil para garantir que cálculos não quebrem.
+
+```jsx
+console.log(Number("123"));   // 123
+console.log(Number("12.5"));  // 12.5
+console.log(Number("abc"));   // NaN
+
+```
+
+---
+
+## 📌 Propriedades importantes do `Number`
+
+### `Number.MAX_VALUE`
+
+- Retorna o **maior valor numérico possível** que o JavaScript pode representar.
+
+```jsx
+console.log(Number.MAX_VALUE);
+// 1.7976931348623157e+308
+
+```
+
+### `Number.MIN_VALUE`
+
+- Retorna o **menor valor positivo** possível.
+
+```jsx
+console.log(Number.MIN_VALUE);
+// 5e-324
+
+```
+
+---
+
+## ⚠️ Observações
+
+- Trabalhar com números muito grandes pode causar **perda de precisão**.
+- Ao validar se algo é número, prefira **conversões seguras** antes de usar em cálculos.
+- Métodos como `toFixed()` retornam **string**, então se precisar usar novamente como número, converta de volta.
+
+---
+
+## 🧠 Resumo
+
+- O objeto `Number` fornece métodos e propriedades para manipulação e validação numérica.
+- **Principais métodos**: `toFixed()`, `isNaN()`, `Number()`.
+- **Propriedades úteis**: `MAX_VALUE` e `MIN_VALUE`.
+- Conhecer esses recursos ajuda a criar códigos mais seguros e precisos.
