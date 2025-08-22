@@ -1,0 +1,53 @@
+## 📌O que é um objeto
+
+- Um **objeto** é uma coleção de **propriedades** e **métodos**.
+- **Propriedades** → pares **chave: valor** (armazenam dados).
+- **Métodos** → funções associadas a um objeto (armazenam comportamentos).
+- Objetos permitem **organizar e agrupar dados relacionados**.
+-----------------------------------------------------------------------------------
+## 🛠 Criando um objeto
+
+Podemos criar um objeto usando **chaves `{}`**:
+let pessoa = {
+  nome: "Matheus",
+  idade: 29,
+  profissao: "Programador"
+};
+
+Cada par **chave: valor** é separado por vírgula.
+
+📌 A chave é o nome da propriedade, e o valor pode ser **qualquer tipo de dado** (número, string, boolean, array, outro objeto, função, etc.).
+------------------------------------------------------------------------------------
+## 🔍 Acessando propriedades
+
+Existem duas formas principais de acessar propriedades:
+
+1. **Notação de ponto**:
+console.log(pessoa.nome); // "Matheus"
+Notação de colchetes:
+console.log(pessoa["idade"]); // 29
+💡 A notação de colchetes é útil quando o nome da propriedade está em uma variável ou contém caracteres especiais.
+------------------------------------------------------------------------------------
+## ✏️ Modificando propriedades
+
+Podemos mudar o valor de uma propriedade existente:
+pessoa.nome = "Pedro";
+E também adicionar novas propriedades:
+pessoa.graduacao = "Engenharia";
+-----------------------------------------------------------------------------------
+## 🗑 Removendo propriedades
+
+Se quisermos excluir uma propriedade:
+delete pessoa.profissao;
+## ⚠️ Observações importantes
+
+- Um objeto **pode ter propriedades de qualquer tipo**.
+- É possível adicionar e remover propriedades a qualquer momento.
+- Objetos são **mutáveis**: se forem atribuídos a outra variável, ambas apontam para o mesmo local na memória.
+------------------------------------------------------------------------------------
+## 🧠 Resumo
+
+- Objetos armazenam dados em pares **chave: valor**.
+- Acessamos com **ponto** ou **colchetes**.
+- Podemos **alterar**, **adicionar** e **remover** propriedades.
+- São essenciais para **organizar dados complexos**.
