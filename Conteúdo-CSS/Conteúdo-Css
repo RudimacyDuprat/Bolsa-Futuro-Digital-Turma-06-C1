@@ -1,0 +1,158 @@
+📘 CSS - Conteúdo Completo para Estudo
+✅ 1. Fundamentos do CSS
+
+O que é CSS e como funciona
+
+Sintaxe do CSS (seletor, propriedade, valor)
+
+Tipos de CSS:
+
+Inline
+
+Interno (dentro do <style>)
+
+Externo (style.css)
+
+Comentários em CSS (/* comentário */)
+
+Seletores básicos:
+
+Tipo (h1, p, div)
+
+Classe (.minha-classe)
+
+ID (#meu-id)
+
+Cores:
+
+Nomeadas, Hexadecimal, RGB, RGBA, HSL
+
+Unidades de medida:
+
+Absolutas: px, cm, mm
+
+Relativas: %, em, rem, vw, vh
+
+Propriedades básicas:
+
+color, background-color
+
+font-size, font-family, font-weight, text-align, line-height
+
+width, height, max-width, min-height
+
+margin, padding, border
+
+Box Model (modelo de caixa)
+
+✅ 2. CSS Intermediário
+
+Seletores avançados:
+
+Agrupamento: h1, p
+
+Combinadores: div p, div > p, div + p, div ~ p
+
+Pseudo-classes: :hover, :focus, :first-child, :last-child, :nth-child()
+
+Pseudo-elementos: ::before, ::after, ::first-line
+
+Display e posicionamento:
+
+display: block, inline, inline-block, none, flex, grid
+
+position: static, relative, absolute, fixed, sticky
+
+top, bottom, left, right, z-index
+
+Flexbox (Layout Flexível)
+
+display: flex
+
+flex-direction, justify-content, align-items, align-self
+
+flex-wrap, gap, flex-grow, flex-shrink, flex-basis
+
+Grid Layout
+
+display: grid
+
+grid-template-columns, grid-template-rows
+
+gap, grid-column, grid-row
+
+justify-items, align-items, place-items
+
+✅ 3. CSS Avançado
+
+Responsividade e Media Queries
+
+@media (min-width: 768px) { ... }
+
+Layouts adaptáveis
+
+Transições e animações
+
+transition, transition-duration, transition-timing-function
+
+@keyframes, animation-name, animation-duration
+
+Transformações
+
+transform: scale(), rotate(), translate(), skew()
+
+Variáveis CSS (Custom Properties)
+
+--cor-principal: #333;
+
+var(--cor-principal)
+
+Z-index e contexto de empilhamento
+
+Shadow e efeitos visuais
+
+box-shadow, text-shadow, filter, opacity
+
+Manipulação de fontes e tipografia
+
+@font-face, Google Fonts, letter-spacing, word-spacing
+
+CSS Functions
+
+calc(), clamp(), min(), max()
+
+Scroll e comportamento
+
+overflow, scroll-behavior, scroll-snap
+
+Pseudo-classes avançadas
+
+:not(), :nth-of-type(), :empty, :checked
+
+Modo escuro com CSS
+
+prefers-color-scheme
+
+✅ 4. Ferramentas e Boas Práticas
+
+Organização de CSS
+
+CSS modular, BEM (Block Element Modifier)
+
+Pré-processadores CSS
+
+SASS / SCSS
+
+CSS Reset e Normalize.css
+
+Performance e otimização
+
+Evitar repetição, reduzir uso de !important, minificação
+
+Acessibilidade (a11y)
+
+Cores acessíveis, foco visível, contraste
+
+Frameworks CSS (opcional)
+
+Bootstrap, Tailwind CSS
