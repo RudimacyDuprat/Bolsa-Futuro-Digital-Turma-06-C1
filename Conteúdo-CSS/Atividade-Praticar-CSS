@@ -1,0 +1,93 @@
+✅ Lista de Exercícios de CSS
+
+1 a 3 – Nível Básico
+
+1. Estilize um título com CSS:
+
+Crie uma página com um <h1> e use CSS para:
+
+Mudar a cor do texto para azul.
+
+Centralizar o título.
+
+Aplicar uma fonte diferente (ex: Arial).
+
+2. Crie uma "caixa de conteúdo":
+
+Crie um <div> com um parágrafo dentro e estilize com:
+
+Cor de fundo clara.
+
+Largura fixa de 300px.
+
+Padding de 20px e borda arredondada.
+
+3. Estilize um botão com hover:
+
+Crie um botão (<button>) e use CSS para:
+
+Aplicar cor de fundo verde.
+
+Cor do texto branca.
+Quando passar o mouse (hover), mude a cor para azul escuro e aplique uma leve sombra.
+------------------------------------------------------------
+
+🔹 4 a 7 – Nível Intermediário
+
+4. Trabalhe com Flexbox:
+
+Crie 3 quadrados (<div class="box">) lado a lado usando Flexbox.
+
+Espaçamento uniforme entre eles.
+
+Centralizados horizontalmente na tela.
+
+Cada um com 100x100px e cor diferente.
+
+5. Aplique uma media query:
+
+Faça uma caixa (div) que:
+
+Fica com largura de 600px em telas grandes.
+
+Se ajusta para 100% em telas menores que 768px.
+
+Teste redimensionando a janela do navegador.
+
+6. Use pseudo-classes para estilizar uma lista:
+
+Crie uma <ul> com 5 itens e estilize:
+
+O primeiro item com uma cor de destaque.
+
+Os itens pares com fundo cinza claro.
+
+Os itens ao passar o mouse mudam de cor.
+-----------------------------------------------------------------------
+8 a 10 – Nível Avançado
+
+8. Crie uma animação com @keyframes:
+
+Faça um botão que:
+
+Ao ser carregado, aumenta de tamanho e volta ao normal com uma animação.
+
+Use transform: scale() e @keyframes.
+
+9. Estilize um formulário com foco (:focus)
+
+Crie um formulário com input de texto e botão.
+
+Quando o input estiver focado, a borda deve ficar azul.
+
+O botão deve mudar de cor ao passar o mouse.
+
+10. Use variáveis CSS e calc():
+
+Crie um layout que:
+
+Use variáveis para cores e espaçamento.
+
+A largura de um elemento deve ser calc(100% - 40px).
+
+Troque o tema alterando apenas o valor das variáveis.
