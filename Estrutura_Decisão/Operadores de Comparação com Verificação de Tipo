@@ -1,0 +1,75 @@
+# Aula: Operadores de Comparação com Verificação de Tipo (`===` e `!==`)
+
+---
+
+## 1️⃣ Diferença entre `==` e `===`
+
+- **`==` (igualdade solta)** → Compara apenas o valor, convertendo tipos automaticamente.
+- **`===` (igualdade restrita)** → Compara valor **e** tipo de dado, sem conversões.
+
+📌 **Exemplo prático:**
+
+```jsx
+5 == "5"   // true  → Apenas o valor é igual, o tipo é convertido automaticamente
+5 === "5"  // false → Valor igual, mas tipos diferentes (number vs string)
+
+```
+
+---
+
+## 2️⃣ Por que usar `===`?
+
+Usar `===` evita **comportamentos inesperados** causados pela conversão implícita do JavaScript.
+
+💡 **Exemplo problemático com `==`:**
+
+```jsx
+0 == false   // true  → Conversão automática para boolean
+"" == false  // true  → String vazia também vira false
+
+```
+
+✅ **Solução com `===`:**
+
+```jsx
+0 === false   // false → Tipos diferentes
+"" === false  // false → Tipos diferentes
+
+```
+
+---
+
+## 3️⃣ Sintaxe e uso
+
+```jsx
+if (variavel === valor) {
+  // Executa se valor e tipo forem iguais
+}
+
+if (variavel !== valor) {
+  // Executa se valor ou tipo forem diferentes
+}
+
+```
+
+---
+
+## 4️⃣ Exemplos práticos
+let numero = 5;
+
+// Comparação apenas de valor
+if (numero == "5") {
+  console.log("Valor igual, tipo diferente (com ==)");
+}
+
+// Comparação de valor e tipo
+if (numero === "5") {
+  console.log("Valor e tipo iguais");
+} else {
+  console.log("Valor igual, mas tipo diferente (com ===)");
+}
+
+// Diferente restrito
+if (numero !== "5") {
+  console.log("Valor ou tipo diferentes (com !==)");
+}
