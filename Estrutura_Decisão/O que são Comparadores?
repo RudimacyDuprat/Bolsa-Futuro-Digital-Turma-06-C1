@@ -1,0 +1,86 @@
+## O que são operadores de comparação?
+
+São símbolos usados para **comparar dois valores** e retornar **`true` (verdadeiro)** ou **`false` (falso)**.
+
+Por exemplo:
+
+```jsx
+console.log(5 > 3); // true
+console.log(5 < 3); // false
+
+```
+
+---
+
+## 2️⃣ Exemplo prático: Carteira de habilitação
+
+### 📜 Regra
+
+No Brasil, para tirar a **carteira de motorista**:
+
+- Idade **maior ou igual a 18** anos.
+
+### 💻 Exemplo:
+
+```jsx
+let idade = 18;
+
+if (idade >= 18) {
+  console.log("Pode tirar a carteira de habilitação.");
+} else {
+  console.log("Não pode tirar a carteira.");
+}
+
+```
+
+🔍 Aqui usamos o **maior ou igual (`>=`)**, pois **18 já é suficiente**.
+
+---
+
+## 3️⃣ Diferença entre `==` e `===`
+
+- **`==`** → Compara apenas o **valor** (conversão automática de tipo).
+- **`===`** → Compara **valor e tipo** (mais seguro).
+
+```jsx
+console.log(5 == "5");  // true  (mesmo valor, tipo diferente)
+console.log(5 === "5"); // false (valor igual, mas tipo diferente)
+
+```
+
+💡 Sempre prefira **`===`** para evitar resultados inesperados.
+
+---
+
+## 4️⃣ Diferença (`!=` e `!==`)
+
+- **`!=`** → Compara se os valores são diferentes (ignora o tipo).
+- **`!==`** → Compara valor e tipo, retornando `true` se forem diferentes.
+
+```jsx
+console.log(5 != "5");   // false (mesmo valor)
+console.log(5 !== "5");  // true  (valor igual, tipo diferente)
+
+```
+
+---
+
+## 5️⃣ Comparando strings
+
+O JavaScript também compara **strings**:
+
+```jsx
+let nome = "Matheus";
+
+if (nome === "Matheus") {
+  console.log("O nome é Matheus");
+} else {
+  console.log("Nome diferente");
+}
+
+```
+
+⚠️ **Atenção**: Não confunda **atribuição (`=`)** com **comparação (`==` ou `===`)**.
+
+- `=` → Atribui um valor.
+- `==` e `===` → Comparam valores.
