@@ -1,0 +1,87 @@
+# **Aula: Estruturas Condicionais (`if`) no JavaScript**
+
+## 🎯 Objetivo da aula
+
+Aprender como **avaliar condições** no JavaScript usando **operadores de comparação** e a estrutura `if` para executar ou não um bloco de código.
+
+---
+
+## 1️⃣ O que é uma estrutura condicional (`if`)
+
+- A estrutura `if` serve para **testar uma condição**.
+- Se a condição for **verdadeira (`true`)**, o código dentro das **chaves `{}`** será executado.
+- Se for **falsa (`false`)**, esse bloco será **ignorado** e o programa segue para a próxima linha.
+
+---
+
+## 2️⃣ Exemplo prático: Carteira de habilitação
+
+Vamos criar um programa para verificar se uma pessoa **pode tirar a carteira de motorista**.
+
+### 🧾 Regras:
+
+- Se a **idade** for **maior ou igual a 18**, a pessoa **pode tirar**.
+- Caso contrário, **não pode**.
+
+### 💻 Exemplo de código:
+
+```jsx
+let idade = 19; // idade da pessoa
+
+if (idade >= 18) {
+  console.log("Você pode tirar a carteira de motorista!");
+}
+
+console.log("Fim do programa");
+
+```
+
+### 🔍 Funcionamento:
+
+1. O **`if`** avalia se `idade >= 18`.
+2. Se **verdadeiro**, mostra a mensagem.
+3. Se **falso**, ignora o bloco e segue para o próximo comando.
+
+---
+
+## 3️⃣ Condição falsa (não entra no `if`)
+
+```jsx
+let idade = 15;
+
+if (idade >= 18) {
+  console.log("Você pode tirar a carteira de motorista!");
+}
+
+console.log("Fim do programa");
+
+```
+
+💡 Aqui nada será exibido dentro do `if`, porque a condição **não foi atendida**.
+
+---
+
+## 4️⃣ Usando variáveis para regras
+
+Podemos deixar o código mais flexível, guardando a **idade mínima** numa variável:
+
+```jsx
+let idade = 19;
+let idadeMinima = 18;
+
+if (idade >= idadeMinima) {
+  console.log("Pode tirar a carteira!");
+}
+
+```
+
+Assim, se a lei mudar, basta alterar **`idadeMinima`**.
+
+---
+
+## 📌 Resumo
+
+- **`if`** serve para criar decisões no código.
+- Sempre gera um **resultado booleano** (`true` ou `false`).
+- O bloco só é executado **se** a condição for verdadeira.
+- Usar **variáveis para regras** deixa o código mais fácil de manter.
