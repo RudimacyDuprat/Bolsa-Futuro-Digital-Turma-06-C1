@@ -1,0 +1,96 @@
+# Aula: Operadores Lógicos no JavaScript (`&&`, `||`, `!`)
+
+---
+
+## 1️⃣ O que são operadores lógicos?
+
+Os operadores lógicos permitem **juntar** ou **inverter** condições em um `if`, tornando a verificação mais precisa.
+
+| Operador | Nome | Função |
+| --- | --- | --- |
+| `&&` | **E lógico (AND)** | Retorna `true` **somente** se todas as condições forem verdadeiras. |
+| ` |  | ` |
+| `!` | **NÃO lógico (NOT)** | Inverte o valor lógico (de `true` para `false` e vice-versa). |
+
+---
+
+## 2️⃣ `&&` – E lógico
+
+O `&&` só retorna **verdadeiro** se **todas** as condições forem verdadeiras.
+
+📌 **Exemplo prático:**
+
+```jsx
+let nome = "João";
+let idade = 16;
+
+// João só pode entrar se for João e tiver 16 anos
+if (nome === "João" && idade === 16) {
+    console.log("Entrada permitida");
+} else {
+    console.log("Entrada negada");
+}
+
+```
+
+🔹 Se **uma** das condições for falsa, o resultado será `false`.
+
+---
+
+## 3️⃣ `||` – OU lógico
+
+O `||` retorna **verdadeiro** se **pelo menos uma** das condições for verdadeira.
+
+📌 **Exemplo:**
+
+```jsx
+let nome = "Pedro";
+let idade = 16;
+
+// Pode entrar se for João OU tiver 16 anos
+if (nome === "João" || idade === 16) {
+    console.log("Entrada permitida");
+} else {
+    console.log("Entrada negada");
+}
+
+```
+
+🔹 Aqui, mesmo que o nome não seja "João", a idade de 16 anos já garante a entrada.
+
+---
+
+## 4️⃣ `!` – NÃO lógico
+
+O `!` inverte o valor lógico.
+
+📌 **Exemplo:**
+
+```jsx
+let permitido = false;
+
+if (!permitido) {
+    console.log("Acesso negado");
+}
+
+```
+
+🔹 Como `permitido` é `false`, o `!` o torna `true`, e o bloco é executado.
+
+---
+
+## 5️⃣ Agrupamento de condições
+
+Você pode **agrupar expressões** com parênteses para controlar a ordem de execução.
+
+📌 **Exemplo:**
+let nome = "João";
+let idade = 21;
+let salario = 2500;
+
+// Só passa se for João e tiver mais de 18 anos OU ganhar mais de 3000
+if ((nome === "João" && idade > 18) || salario > 3000) {
+    console.log("Aprovado");
+} else {
+    console.log("Reprovado");
+}
