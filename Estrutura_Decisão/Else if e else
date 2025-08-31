@@ -1,0 +1,116 @@
+# Aula: Estruturas Condicionais – `if`, `else if` e `else`
+
+---
+
+## 1️⃣ Estrutura básica do `if`
+
+A sintaxe do `if` é:
+
+```jsx
+if (condicao) {
+  // Código executado se a condição for verdadeira
+}
+
+```
+
+📌 **Exemplo:**
+
+```jsx
+let idade = 19;
+
+if (idade >= 18) {
+  console.log("Pode entrar na festa.");
+}
+
+```
+
+---
+
+## 2️⃣ Adicionando o `else`
+
+O `else` é executado **somente se** a condição do `if` for **falsa**.
+
+```jsx
+let idade = 16;
+
+if (idade >= 18) {
+  console.log("Pode entrar na festa.");
+} else {
+  console.log("Não pode entrar.");
+}
+
+```
+
+---
+
+## 3️⃣ Usando `else if` para múltiplas condições
+
+Quando precisamos verificar **mais de uma condição**, usamos `else if`:
+
+```jsx
+let idade = 17;
+
+if (idade >= 18) {
+  console.log("Pode entrar na festa.");
+} else if (idade >= 16) {
+  console.log("Pode entrar com autorização dos pais.");
+} else {
+  console.log("Não pode entrar.");
+}
+
+```
+
+---
+
+## 4️⃣ Comparando valores com `!=` (diferente)
+
+O operador `!=` verifica se **dois valores são diferentes**.
+
+```jsx
+let nome = "Matheus";
+
+if (nome != "Pedro") {
+  console.log("O nome não é Pedro.");
+}
+
+```
+
+---
+
+## 5️⃣ `else` é opcional
+
+O bloco `else` **não é obrigatório**.
+
+Podemos ter apenas um `if` ou `if` + `else if` sem precisar de `else` no final.
+
+📌 **Exemplo sem `else`:**
+
+```jsx
+let idade = 20;
+
+if (idade >= 18) {
+  console.log("Pode dirigir.");
+}
+
+```
+
+---
+
+## 6️⃣ Exemplo completo
+
+let nome = "Matheus";
+let idade = 19;
+
+if (nome === "Pedro") {
+  console.log("Bem-vindo, Pedro!");
+} else if (nome === "Matheus") {
+  console.log("Bem-vindo, Matheus!");
+} else {
+  console.log("Usuário desconhecido.");
+}
+
+if (idade >= 18) {
+  console.log("Pode tirar a carteira de habilitação.");
+} else {
+  console.log("Ainda não pode tirar a carteira.");
+}
